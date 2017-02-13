@@ -1,0 +1,8 @@
+app:
+    build: .
+    ports:
+        - "6000:6000"
+    volumes:
+        - ./:/source
+    working_dir: /source  
+    command: '/bin/bash'
